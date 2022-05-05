@@ -23,7 +23,7 @@ void Train::addCage(bool light) {
   }
 }
 
-int Train::getLenght() {
+int Train::getLength() {
   Cage* current = first;
   first->light = true;
   int lenght = 0;
